@@ -3,7 +3,7 @@
         "port": 3005,
         "host": "localhost",
         "protocol": "http",
-        "public": "../client/dist/client/",
+        "public": "../client/build/",
         "static": "/",
         "log": 2,
         "module": {
