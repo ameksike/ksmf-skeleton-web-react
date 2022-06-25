@@ -49,10 +49,20 @@ class DefaultController extends KsMf.app.Controller {
         } catch (error) {
             this.logger.error('list', error);
             res.status(404).json({
-                message: error.message,
-                name: error.name
+                error: {
+                    message: error.message,
+                    name: error.name
+                }
             });
         }
+    }
+
+    async select(req, res, next) {
+        res.status(200).json({
+            name: 'Julia Robert Anderson',
+            email: 'julia.robert@gmail.com',
+            age: 12
+        });
     }
 }
 module.exports = DefaultController;

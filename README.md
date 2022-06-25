@@ -84,8 +84,13 @@ For more information see the following link: [ksmf-skeleton-rest](https://github
 - npm install -g create-react-app
 - npm init react-app client
 - cd client
-- npm install @mui/material @emotion/react @emotion/styled
+- npm install react-router-dom
+- npm install @mui/material @emotion/react @emotion/styled 
+- npm install @mui/icons-material
+- npm install emotion-theming
 - npm install react-i18next i18next --save
+- npm install i18next-browser-languagedetector
 - npm install react-redux
 - npm install @reduxjs/toolkit
+- npm install react-cookies
 - npm install sass --save-dev
